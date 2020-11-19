@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navConteudo{
+    background: #b6b6b6;
+    width: 100%;
+}
+
+.apresentacao{
+    padding: 20px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
