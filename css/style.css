@@ -3,15 +3,105 @@
     margin: 0;
 }
 
-.navConteudo{
-    background: #b6b6b6;
-    width: 100%;
+.header{
+    padding-bottom: 20px;
+    border:1px solid rgb(0, 0, 0);
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: 100% 1%;
+    font-family: 'Alegreya', serif;
+    position: relative;
+}
+
+.logo{
+    display:inline-block;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    margin-right: -20%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.116);
+}
+
+.logo a {
+    font-size: 3em;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.headerNavMenu{
+    display:inline-block;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    margin-right: -20%;
+    transform: translate(-50%, -50%)
+}
+
+.headerNavMenu a{
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.116);
+}
+
+.headerNavMenu a:hover{
+    box-shadow: 0 0 10px 1px black;
 }
 
 .apresentacao{
-    padding: 20px;
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-    overflow: hidden;
+    margin-top: 100px;
+}
+.titleApresentacao{
+    display: inline;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.squarePhase{
+    max-width: 35%;
+    height: 350px;
+    background-color: white;
+    margin-top: 300px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background: rgba(68, 68, 68, 0.39);
+    padding: 0;
+}
+.titlePhase{
+    display: inline-block;
+    font-size: 2em;
     color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 5px;
+    text-align: center;
+}
+
+.phase{
+    display: inline-block;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 5px;
+}
+
+.phase li{
+    margin-top: 15px;
+    list-style-type: none;
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(12, 12, 12, 0.418);
+    text-align: center;
 }
